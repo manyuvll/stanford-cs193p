@@ -18,6 +18,7 @@
 		941F3C3C25FB3C5300A3BD62 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F3C3B25FB3C5300A3BD62 /* Array+Identifiable.swift */; };
 		941F3C3F25FB4A4700A3BD62 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F3C3E25FB4A4700A3BD62 /* Grid.swift */; };
 		941F3C4225FB4AF700A3BD62 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F3C4125FB4AF700A3BD62 /* GridLayout.swift */; };
+		942796072621E37700A72DB9 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942796062621E37700A72DB9 /* Array+Only.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		941F3C3B25FB3C5300A3BD62 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		941F3C3E25FB4A4700A3BD62 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		941F3C4125FB4AF700A3BD62 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		942796062621E37700A72DB9 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				941F3C3625F276E600A3BD62 /* EmojiMemoryGame.swift */,
 				941F3C3B25FB3C5300A3BD62 /* Array+Identifiable.swift */,
 				941F3C3E25FB4A4700A3BD62 /* Grid.swift */,
+				942796062621E37700A72DB9 /* Array+Only.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				941F3C1E25F2765600A3BD62 /* AppDelegate.swift in Sources */,
 				941F3C2025F2765600A3BD62 /* SceneDelegate.swift in Sources */,
 				941F3C3325F276B000A3BD62 /* MemoryGame.swift in Sources */,
+				942796072621E37700A72DB9 /* Array+Only.swift in Sources */,
 				941F3C2225F2765600A3BD62 /* EmojiMemoryGameView.swift in Sources */,
 				941F3C3725F276E600A3BD62 /* EmojiMemoryGame.swift in Sources */,
 				941F3C3F25FB4A4700A3BD62 /* Grid.swift in Sources */,
