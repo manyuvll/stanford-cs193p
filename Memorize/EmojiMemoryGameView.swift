@@ -11,12 +11,19 @@ struct EmojiMemoryGameView: View {
     @ObservedObject var emojiMemoryGame: EmojiMemoryGame
     
     var body: some View {
-        Grid(emojiMemoryGame.cards) { card in
-            CardView(card: card).onTapGesture {
-                emojiMemoryGame.choose(card: card)
+        VStack {
+            Button("New Game") {
+                emojiMemoryGame.newGame()
+            }.frame(minWidth: 100, maxWidth: .infinity, minHeight: 44).foregroundColor(emojiMemoryGame.themeColor)
+            Text(emojiMemoryGame.theme.name).font(.largeTitle).fontWeight(.thin)
+            Text("Score: \(emojiMemoryGame.score)").font(.headline).fontWeight(.thin)
+            Grid(emojiMemoryGame.cards) { card in
+                CardView(card: card).onTapGesture {
+                    emojiMemoryGame.choose(card: card)
+                }
+                .padding(5)
+                .foregroundColor(emojiMemoryGame.themeColor)
             }
-            .padding(5)
-            .foregroundColor(.orange)
         }
     }
 }
